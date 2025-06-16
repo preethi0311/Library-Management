@@ -1,0 +1,66 @@
+.loginbgss {
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2025/05/A-serene-watercolor-scene-of-cherry-blossoms-gently-falling-with-soft-pink-petals-blending-into-a-misty-pale-background.webp");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+
+
+}
+
+.contactus {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    font-weight: bold;
+    position: relative;
+    top: 80px;
+}
+
+.con {
+    position: relative;
+    top: 40px;
+    margin-left: 40px;
+    width: 300px;
+    height: 50px;
+    font-family: cursive;
+    font-weight: 700;
+
+
+
+}
+
+.cons {
+    position: relative;
+    font-size: large;
+    top: 40px;
+    margin-left: 40px;
+    width: 300px;
+    height: 60px;
+    font-family: cursive;
+    font-weight: 700;
+    background-color: rgba(242, 145, 221, 0.486);
+    border-width: 3px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(50, 30, 50);
+
+}
+
+.cont {
+    margin-left: 70px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: blue;
+    width: 130px;
+    font-size: x-large;
+    font-family: cursive;
+
+
+
+}
+
+.msgbox {
+    width: 350px;
+    height: 150px;
+    font-size: large;
+}
