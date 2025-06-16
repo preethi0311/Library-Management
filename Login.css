@@ -1,0 +1,232 @@
+@keyframes bgZoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    /* Background zoom-in animation */
+    100% {
+        transform: scale(1);
+    }
+}
+
+.loginbg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://wallpaperaccess.com/full/2819689.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.loginbg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    /* Create a pseudo element for animation without affecting content */
+    animation: bgZoom 20s ease-in-out infinite;
+    filter: brightness(0.7);
+    /* thoda dark effect for readability */
+}
+
+.formcard {
+    background-color: rgba(130, 132, 130, 0.686);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgb(42, 13, 13);
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    animation: fadeInUp 1.2s ease forwards;
+    opacity: 0;
+}
+
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+        /* Fade in and up animation */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(30);
+    }
+}
+
+
+.color h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.email,
+.password {
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    font-family: cursive;
+    margin-bottom: 8px;
+}
+
+.logbook {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: rgba(218, 218, 7, 0.532);
+    box-shadow: 0 0 10px rgb(18, 0, 0);
+}
+
+.sign {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+h4 {
+    text-align: right;
+    color: #100304;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .formcard {
+        padding: 30px 20px;
+    }
+
+    .color h1 {
+        font-size: 1.8rem;
+    }
+
+    .sign {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .formcard {
+        padding: 25px 15px;
+    }
+
+    .color h1 {
+        font-size: 1.5rem;
+    }
+
+    .sign {
+        font-size: 0.95rem;
+    }
+}
+
+.logp {
+    text-align: left;
+    color: #100304;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/*.loginbg{
+    text-align: center;
+    margin-top: 40px;
+}
+*/
+
+/*.loginbg {
+    background-image: url("https://wallpaperaccess.com/full/2819689.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+
+
+}
+
+.color {
+    background-color: rgba(137, 43, 226, 0.164);
+    height: 100vh;
+
+}
+
+
+.email {
+
+    font-size: xx-large;
+    margin-right: 110px;
+    margin-top: 160px;
+    font-weight: 500;
+    font-family: cursive;
+
+
+}
+
+.password {
+
+    font-size: xx-large;
+    margin-right: 60px;
+    font-weight: 500;
+    font-family: cursive;
+
+
+}
+
+.sign {
+    color: black;
+    font-weight: 900;
+    border-radius: 20px;
+    margin-top: 25px;
+
+
+
+}
+
+.text-dark {
+    position: absolute;
+    top: 90px;
+    left: 700px;
+    font-family: cursive;
+    font-weight: 800;
+
+}
+
+.logbook {
+    background-color: rgba(218, 218, 7, 0.532);
+    height: 40px;
+    font-size: large;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgb(18, 0, 0);
+}*/
+/* Login.css */

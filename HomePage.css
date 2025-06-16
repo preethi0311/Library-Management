@@ -1,0 +1,18 @@
+.homefirst {
+    margin-left: 45px;
+}
+
+.logos {
+    margin-right: 220px;
+    color: aqua;
+    position: relative;
+    right: 90px;
+    margin-left: 90px;
+    transition: all 0.3s ease;
+
+}
+
+.logos:hover {
+    transform: scale(1.05);
+    color: #f1c40f !important;
+}

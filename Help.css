@@ -1,0 +1,44 @@
+.helppage {
+  background-image: url("https://images.rawpixel.com/image_png_800/cHJpdmF0ZS90ZW1wbGF0ZXMvZmlsZXMvY3JlYXRlX3Rvb2wvMjAyMy0wNy8wMWd5djc4ZHlrZDByYnc0MHNnOG0zNjkwMS1sazhpd2lpOC5wbmc.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.help-page {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: #9202ec58;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(20, 0, 0);
+  font-family: cursive;
+  color: #333;
+  position: relative;
+  top: 50px;
+}
+
+.help-page h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.help-page h2 {
+  color: #0901ff;
+  margin-top: 20px;
+}
+
+.help-page ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.help-page a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.help-page a:hover {
+  text-decoration: underline;
+}

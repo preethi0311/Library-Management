@@ -1,0 +1,129 @@
+.book {
+  margin-left: 90px;
+  margin-top: 90px;
+
+}
+
+.sharp {
+  margin-left: 85px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.books {
+  margin-left: 90px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ebook {
+  margin-left: 45px;
+  margin-top: 90px;
+
+}
+
+.eb {
+  margin-left: 35px;
+  margin-top: 28px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.ebooks {
+  margin-left: 50px;
+  margin-top: 29px;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+
+.user {
+  margin-left: 79px;
+  margin-top: 90px;
+
+}
+
+.fause {
+  margin-left: 70px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+.bisolid {
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.users {
+  margin-left: 70px;
+  margin-top: 23px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.cat {
+  margin-left: 45px;
+  margin-top: 95px;
+
+
+}
+
+.cats {
+  margin-left: 50px;
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+.a {
+  margin-left: 620px;
+  margin-top: 70px;
+  position: absolute;
+  color: blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+
+}
+
+.pos2 {
+  margin-left: 85px;
+  overflow: hidden;
+  transition: transform 0.23s;
+  margin-top: 200px;
+  border-radius: 12px;
+  border-style: ridge;
+  border-color: rgba(0, 251, 255, 0.434);
+  width: 14rem;
+  border-width: 2px;
+  box-shadow: 0 0 20px lch(5.06% 0 296.81);
+
+
+}
+
+.pos2:hover {
+  transform: translateY(-20px);
+
+}
+
+
+.title2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card2 {
+  color: brown;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}

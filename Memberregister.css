@@ -1,0 +1,151 @@
+/* Background setup */
+.loginbgm {
+  background-image: url("https://wallpaperaccess.com/full/1320272.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 150vh;
+  padding-top: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Heading */
+.registration {
+  font-family: 'Georgia', serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #01011a;
+  margin-bottom: 20px;
+}
+
+/* Form container */
+.member {
+  background-color: rgba(5, 24, 196, 0.242);
+  backdrop-filter: blur(1px);
+  border-radius: 15px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.985);
+  width: 95%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px 30px;
+}
+
+/* Label style */
+.labt {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.05rem;
+  color: #ffffff;
+  font-weight: 600;
+  padding-bottom: 5px;
+  display: block;
+}
+
+/* Input field style */
+.roundin {
+  width: 70%;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: rgba(99, 9, 155, 0.378);
+  border: 1.5px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.967);
+  margin-bottom: 15px;
+  color: #000;
+  transition: all 0.3s ease-in-out;
+}
+
+.roundin:focus {
+  background-color: #fff;
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Textarea */
+.inround {
+  height: 80px;
+  resize: vertical;
+}
+
+/* Submit button */
+.reset {
+  position: relative;
+  left: 300px;
+  display: block;
+  margin: 10px auto 120 auto;
+  background-color: #c3c34a;
+  color: #000;
+  font-size: 1.05rem;
+  font-weight: 600;
+  font-family: 'Georgia', serif;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reset:hover {
+  background-color: #689f38;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Table spacing */
+table.member tr td {
+  padding: 5px 10px;
+  vertical-align: top;
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+  .registration {
+    font-size: 1.8rem;
+  }
+
+  .member {
+    padding: 20px 20px;
+  }
+
+  .roundin {
+    font-size: 0.95rem;
+    padding: 7px 10px;
+  }
+
+  .labt {
+    font-size: 1rem;
+  }
+
+  .reset {
+    font-size: 1rem;
+    padding: 8px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .registration {
+    font-size: 1.5rem;
+  }
+
+  .member {
+    padding: 15px;
+    width: 90%;
+  }
+
+  .roundin {
+    font-size: 0.9rem;
+    padding: 6px 8px;
+  }
+
+  .reset {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+}
+
+.homefirst {
+  margin-left: 45px;
+}

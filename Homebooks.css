@@ -1,0 +1,106 @@
+.homedesign {
+  background-image: url("https://img.freepik.com/premium-photo/abstract-blur-green-color-background_7182-1948.jpg?w=740");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+}
+
+.homec {
+  border-color: rgb(13, 246, 71);
+  border-width: 2px;
+  position: relative;
+  left: 100px;
+  top: 45px;
+  background-color: black;
+  color: azure;
+  transition: 0.3s;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(15, 14, 14);
+
+
+}
+
+.homec:hover {
+  transform: translateY(-15px);
+
+}
+
+.homebut {
+  margin-left: 50px;
+  width: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.homebut:hover {
+  background-color: #0d6efd;
+  transform: scale(1.05);
+}
+
+.aibook {
+  position: absolute;
+  top: 200px;
+  left: 480px;
+  font-family: cursive;
+  font-size: large;
+  font-weight: bold;
+
+
+}
+
+.comin {
+
+  margin-left: 35px;
+  border-width: 3px;
+  border-radius: 10px;
+  border-color: blue;
+  background-color: rgba(8, 237, 8, 0.11);
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.comlab {
+
+  margin-left: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.comsub {
+  width: 100px;
+  height: 40px;
+  font-size: large;
+  font-weight: 500;
+  border: hidden;
+
+  transition: 0.3s;
+}
+
+.comsub:hover {
+  background-color: #0d6efd;
+  transform: scale(1.05);
+}
+
+
+.review {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+button:disabled {
+  background-color: #6c757d;
+  /* Grey */
+  cursor: not-allowed;
+}
+
+.bg-success {
+  background-color: green !important;
+}
+
+.bg-danger {
+  background-color: red !important;
+}

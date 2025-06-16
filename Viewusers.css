@@ -1,0 +1,133 @@
+/* Body background and font */
+/*body {
+  background: #121212;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 30px 20px;
+}
+
+/* Container for table */
+.usertable {
+  background-color: black;
+}
+
+.table-container {
+  max-width: 1200px;
+  margin: auto;
+  background: #0d1302fa;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+/* Title */
+.table-container h2 {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  color: #1b5bcb;
+  text-shadow: 0 0 8px #77aaff80;
+}
+
+/* Search box */
+.search-box {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 30px auto;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: 2px solid #77aaff;
+  border-radius: 25px;
+  outline: none;
+  background: #2b2b3c;
+  color: #ddd;
+  transition: border-color 0.3s ease;
+}
+
+.search-box:focus {
+  border-color: #99bbff;
+  box-shadow: 0 0 8px #18e30dfb;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 700px;
+  box-shadow: 0 0 20px #4f5d75;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Table headers */
+thead tr {
+  background: linear-gradient(90deg, #4a90e2, #357ABD);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  user-select: none;
+}
+
+thead th {
+  padding: 15px 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+thead th:last-child {
+  border-right: none;
+}
+
+/* Table rows */
+tbody tr {
+  background: #2a2a3d;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: default;
+  border-bottom: 1px solid #44475a;
+}
+
+/* Hover animation */
+tbody tr:hover {
+  background: #3f51b5;
+  color: #fff;
+  transform: scale(1.02);
+  box-shadow: 0 0 15px #3f51b5cc;
+  z-index: 1;
+  position: relative;
+}
+
+/* Table data cells */
+tbody td {
+  padding: 14px 20px;
+  font-size: 0.95rem;
+  color: #cbd5e1;
+}
+
+/* Alternate row shading */
+tbody tr:nth-child(even) {
+  background: #232337;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .table-container {
+    padding: 15px;
+  }
+
+  table {
+    min-width: unset;
+    font-size: 0.85rem;
+  }
+
+  thead tr {
+    font-size: 0.8rem;
+  }
+
+  .search-box {
+    max-width: 100%;
+  }
+}

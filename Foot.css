@@ -1,0 +1,44 @@
+.p1 {
+    text-align: justify;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.p2 {
+    margin-left: 70px;
+    font-size: large;
+    font-size: 25px;
+}
+
+.use {
+    margin-left: 70px;
+}
+
+.p3 {
+    margin-left: 21px;
+    font-size: large;
+    font-size: 25px;
+}
+
+.other {
+    margin-left: 20px;
+}
+
+.p4 {
+
+    position: relative;
+    right: 30px;
+    font-size: 25px;
+
+
+}
+
+.p14 {
+    margin-left: 450px;
+    margin-top: 60px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    bottom: 10px;
+}
